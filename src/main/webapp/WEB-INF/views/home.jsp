@@ -1,4 +1,4 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp.jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
@@ -16,10 +16,10 @@
     <title>Carousel Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<c:url value='/resources/css/bootstrap.min.css'>" rel='stylesheet'>
+    <link href="<c:url value='/resources/css/bootstrap.min.css' />" rel='stylesheet' />
 
     <!-- Custom styles for this template -->
-    <link href="<c:url value='/resources/css/carousel.css'>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/carousel.css' />" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
